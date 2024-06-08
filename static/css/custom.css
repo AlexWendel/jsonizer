@@ -1,0 +1,20 @@
+body, .editor{
+    height: 100%;
+    margin: 0;
+}
+
+.editor {
+    display: flex;    
+    gap: 1em;
+    justify-content:  space-around;
+    height: 90vh;
+}
+
+.editor > .preview{
+    resize: none;
+}
+
+.editor > .inputs {
+    width: 50%;
+}
+
